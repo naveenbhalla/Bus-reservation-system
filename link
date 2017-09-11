@@ -1,0 +1,54 @@
+//        $this->load->model('Records_model');
+//        $data = array(
+//            'name' => $this->input->post('name'),
+//            'emailId' => $this->input->post('emailid')
+//        );
+//        $id = $this->input->post('id');
+//        $this->Records_model->update($data, $id);
+//        redirect('dashboard');
+
+
+http://nimishprabhu.com/top-10-best-usage-examples-php-simple-html-dom-parser.html
+
+<tr>
+	<th>Amenities</th>
+		<td>
+				<div><ul>
+					<li>Blanket <i class="material-icons">&#xe632;</i></li>
+					<li>Reclining Seat<i class="material-icons" style="font-size:24px">airline_seat_recline_extra</i></li>
+					<li>Movie <i class="material-icons" style="font-size:24px">movie_filter</i></li>
+					<li>Hammer( Emergency Exit) <i class="fa fa-legal" style="font-size:24px"></i></li>
+					<li>Wifi <i class="fa fa-wifi" style="font-size:24px"></i></li>
+					<li>Charging point <i class="fa fa-plug" style="font-size:24px"></i></li>
+					<li>Reading Light <i class="material-icons" style="font-size:36px">wb_incandescent</i></li>
+				</ul>
+				</div>
+		</td>
+</tr>
+
+https://stackoverflow.com/questions/20738329/how-to-call-a-php-function-on-the-click-of-a-button
+
+
+<?php for($i = 1; $i<32; $i++ ) { ?>
+					<li>
+						<ol class="seats">
+							<li class="seat">
+					          <input type="checkbox" id="<?php $i ?>" value="<?php $i ?>" name="seatNumber[]"/>
+					          <label for="1"><?php $i ?></label>
+					        </li>
+							<li class="seat" id="gap">
+					          <input type="checkbox" id="<?php $i ?>" value="<?php $i ?>" name="seatNumber[]"/>
+					          <label for="2"><?php $i ?></label>
+					        </li>
+							<li class="seat">
+					          <input type="checkbox" id="<?php $i ?>" value="<?php $i ?>" name="seatNumber[]"/>
+					          <label for="<?php $i ?>"><?php $i ?></label>
+					        </li>
+							<li class="seat">
+					          <input type="checkbox" id="<?php $i ?>" value="<?php $i ?>" name="seatNumber[]"/>
+					          <label for="<?php $i ?>"><?php $i ?></label>
+					        </li>
+						</ol>
+					</li>
+
+				<?php } ?>

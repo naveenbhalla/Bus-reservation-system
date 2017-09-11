@@ -1,0 +1,218 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+	background-color: aliceblue;
+}
+div{
+	float:left;
+}
+#header{
+	float:left;
+	width:100%;
+	background-color: #4CAFAA;
+}
+#header h1{ 
+	position:absolute;
+	float:left;
+	margin-left:20px;
+}
+#header pre{
+	float:right;
+	margin-top:40px;
+	background-color: #4CAFAA;
+	border:0px;
+}
+#header img{
+	position:absolute;
+	height:80px;
+	width:80px;
+	margin-left:50%;
+	margin-top: -10px;
+	left:-40px;
+}
+#left{
+	width:11%;
+	background: honeydew;
+	position: absolute;
+	top:70px;
+	height:100%;
+}
+#left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: honeydew;
+    height: 100%;
+    padding-left: 1px;
+}
+
+#left ul li{
+	padding-top: 20px;
+}
+
+#left li a {
+    display: block;
+    color: #000;    
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#left li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#content{
+	width:89%;
+	height:100%;
+	background-color: aliceblue;
+}
+#content h1{
+	float:left;
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 40%;
+}
+#content input[type="button"]{
+	float:right;
+	margin-top: 15px;
+	margin-right: 15px;
+	height: 50px;
+	width:100px;
+	background-color: green;
+	color: white;
+	font-size: 20;
+}
+/*#content table{
+	display:table;
+	clear: both;
+	margin-left: 20%;
+	height: 50%;
+	width:40%;
+}*/
+.content_AddBus{
+	height:450px;
+	width:400px;
+	background-color:black;
+	/*margin-left:30%;*/
+	padding:10px;
+	position: absolute;
+	left:35%;
+}
+.content_BusTickets{
+	height:240px;
+	width:400px;
+	background-color:black;
+	margin-left:30%;
+	padding:10px;
+	position: absolute;
+}
+.content_UserFeedback{
+	height:350px;
+	width:400px;
+	background-color:black;
+	left:40%;
+	padding:10px;
+	position: absolute;
+}
+.content_Login{
+	margin-left:40%;
+	margin-top:10px;
+	width:300px;
+	height:210px;
+	background:black;
+	padding:30px;
+}
+.content_OTP{
+	width:350px;
+	height:210px;
+	padding:30px;
+	clear:both;
+	margin-left: 40%;
+	margin-top: 20%;
+	position: absolute;
+}
+.content_OTP p{
+	font-size: 20px;
+	color: blue;
+}
+.content_Index{
+	height:400px;
+	width:350px;
+	background-color:black;
+	left:35%;
+	padding:40px;
+	position: absolute;
+}
+.SigninBtn button{
+	width:100px;
+	height:50px;
+	font-size: 16px; 
+	border-radius: 4px;
+    background-color: #4CAFAA;
+}
+.RegisterBtn button{
+	width:100px;
+	height:50px;
+	font-size: 16px; 
+	border-radius: 4px;
+	background-color: #4CAFAA;
+}
+
+.TableData{
+	overflow:scroll;
+	/*margin-left:130px;
+	height:240px;
+	margin-top:20px;
+	float:left;*/
+	position: absolute;
+    margin-left: 20%;
+    margin-top: 18%;
+}
+.content_UserFeedback p{
+	font-size:30px;
+	color:blue;
+	padding:0;
+	margin-left:27%;
+}
+.RegisterBtn{
+	float:right;margin-right:10px;
+}
+.TableData table{
+	border-collapse: collapse;
+}
+.TableData th{
+	text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #4CAF50;
+    color: white;
+}
+.TableData td{
+	text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.TableData tr:hover{
+	background-color:#f5f5f5
+}
+.TableData tr:nth-child(even){
+	background-color: #f2f2f2
+}
+.TableDesign table{
+	border-collapse: collapse;
+}
+.TableDesign th{
+	text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #4CAF50;
+    color: white;
+}
+.TableDesign td{
+	text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.TableDesign tr:hover{background-color:#f5f5f5}
+.TableDesign tr:nth-child(even){background-color: #f2f2f2}
